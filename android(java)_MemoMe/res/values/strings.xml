@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MemoMe</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_grid_list">GridList</string>
+    <string name="title_activity_horizontal_debug">HorizontalDebug</string>
+
+</resources>

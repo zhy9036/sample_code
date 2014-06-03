@@ -1,0 +1,81 @@
+/*
+YANG ZHANG
+CSE 154 AA
+HW8
+This is the css file for hw8
+*/
+
+.tile{
+	border: 5px black solid;
+	font-size: 40pt;
+	width: 90px;
+	height: 90px;
+	float: left;
+	position: relative;
+}
+
+.blank{
+	width: 100px;
+	height: 100px;
+	float: left;	
+	position: relative;
+}
+body,#shufflebutton{
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.cover:hover{
+	border: 5px red solid;
+}
+#puzzlearea{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+}
+.animationUp{
+	-webkit-animation:moveUp 2s infinite;
+}
+.animationDown{
+	-webkit-animation:moveDown 2s infinite;
+}
+.animationLeft{
+	-webkit-animation:moveLeft 2s infinite;
+}
+.animationRight{
+	-webkit-animation:moveRight 2s infinite;
+}
+
+@-webkit-keyframes moveUp{
+	from{
+		bottom:0px;
+	}
+	to{
+		bottom:100px;
+	}
+}
+@-webkit-keyframes moveDown{
+	from{
+		top:0px;
+	}
+	to{
+		top:100px;
+	}
+}
+@-webkit-keyframes moveRight{
+	from{
+		left:0px;
+	}
+	to{
+		left:100px;
+	}
+}
+@-webkit-keyframes moveLeft{
+	from{
+		right:0px;
+	}
+	to{
+		right:100px;
+	}
+}

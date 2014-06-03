@@ -1,0 +1,56 @@
+/*
+CSE 154 Homework 5 (To-Do List)
+This file contains the styles for all pages on the to-do list site.
+*/
+
+body, input, select, option, button, a {
+	color: #005AB4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+}
+
+body, h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#error {
+	background-color: #ffdddd;
+	border: 1px dotted red;
+	color: red;
+	font-weight: bold;
+	padding: 0.5em;
+}
+
+.headfoot {
+	background-color: #005AB4;
+	color: white;
+	padding: 0.5em;
+}
+
+h1 img {
+	float: left;
+	margin-right: 1em;
+}
+
+li {
+	margin-bottom: 0.5em;
+	width: 20em;
+}
+
+li form input[type="submit"] {
+	float: right;
+	margin-left: 1em;
+}
+
+#main {
+	margin: 2em;
+}
+
+#todolist form {
+	display: inline;
+}
+
+#todolist li {
+	clear: right;
+}
