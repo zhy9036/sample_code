@@ -1,0 +1,61 @@
+/*
+	CSE 154 
+	HW 6
+	YANG ZHANG
+	This css file for bacon webpage
+	*/
+#main{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	background-color: white;
+}
+table{
+	margin: auto;
+	width: 90%;
+	border: 1px #dad9d4 solid;
+	border-collapse: collapse;
+	font-size: 12pt;
+	margin-bottom: 2em;
+}
+form{
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px; 
+	font-size: 12pt;
+}
+legend{
+	text-align: left;
+}
+#banner{
+	background-image: url("https://webster.cs.washington.edu/images/kevinbacon/banner-background.png");
+	color: white;
+	height: 50px;
+	vertical-align: middle; 
+	border:2px red solid;
+	padding: 10px;
+	text-align: left;
+}
+
+#banner> a >img{
+	margin: auto;
+	padding: auto;
+	height: 49px;
+}
+.dark{
+	background-color: #dad9d4;
+}
+
+body{
+	font-family: Verdana, Tahoma, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+#w3c{
+	margin-top: 2em;
+	background: url("https://webster.cs.washington.edu/images/kevinbacon/banner-background.png");
+	padding: 10px;
+	height: 30px;
+}

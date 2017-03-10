@@ -1,0 +1,9 @@
+debug
+
+
+SELECT m.name, m.year FROM movies m, roles r, roles r2, actors a, actors a2 WHERE a.id = r.actor_id
+			AND m.id = r.movie_id AND a.first_name like 'Tom%' AND a.last_name='Cruise' AND a2.id = r2.actor_id AND m.id = r2.movie_id AND a2.first_name='Kevin' AND a2.last_name='Bacon' 
+			ORDER BY m.year DESC, m.name ASC
+
+SELECT id from actors where first_name like 'Tom%' AND last_name = 'Cruise'
+		ORDER BY film_count DESC, id ASC
